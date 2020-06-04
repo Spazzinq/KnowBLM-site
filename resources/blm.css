@@ -274,7 +274,7 @@ twitter-widget {
     }
     
     .box {
-        
+        margin: 0 0 2vw;
     }
     
     .typed, .typed-cursor {
