@@ -202,6 +202,10 @@ twitter-widget {
     margin: 2vh;
 }
 
+.alert-mobile {
+    display: none;
+}
+
 @media screen and (orientation: portrait),(max-width: 1150px) {
     .socials {
         display: none;
@@ -291,6 +295,14 @@ twitter-widget {
 
     .logo {
         display: none;
+    }
+    
+    .alert-mobile {
+        display: grid;
+        grid-template-columns: 30fr 1fr;
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
     }
 }
 
