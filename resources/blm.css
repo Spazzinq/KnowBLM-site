@@ -4,7 +4,7 @@
     --main-color: #d3d3d3;
     --highlight-color: #0058e0;
     --light-highlight-color: #4d93ff;
-    --footer-color: #efefef;
+    --footer-color: black;
     --scroll-color: #ebeb15;
     --scroll-shadow-color: black;
 }
@@ -29,6 +29,7 @@ header {
 footer {
     background-color: var(--footer-color);
     color: white;
+    text-align: center;
     padding: .5em;
 }
 
