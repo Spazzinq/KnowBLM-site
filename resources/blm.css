@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
+    font: 100%/1.5 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -110,7 +110,7 @@ header img {
 }
 
 .scroll h1 {
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 .error {
@@ -156,7 +156,7 @@ header img {
 
 .name {
     font-size: 10vw;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .typed, .typed-cursor {
@@ -179,15 +179,19 @@ header img {
 }
 
 .lead-in {
-    font-size: 40px;
+    font-size: 4vh;
 }
 
 .mini-in {
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 div ul {
     margin: 0 2vh;
+}
+
+div li {
+    margin: 0 0 .5vh;
 }
 
 .typed .highlight {
@@ -196,12 +200,9 @@ div ul {
         linear-gradient(var(--light-highlight-color) 30%, transparent 0);
     
 }
+
 .typed .highlight:hover {
     background-color: var(--light-highlight-color);
-}
-
-twitter-widget {
-    margin: auto;
 }
 
 .indent {
@@ -209,13 +210,13 @@ twitter-widget {
 }
 
 .box {
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 10px;
     margin: 2vh;
 }
 
-.alert-mobile {
-    display: none;
+h2 {
+    margin: 1vh 0;
 }
 
 @media screen and (orientation: portrait),(max-width: 1150px) {
@@ -275,11 +276,11 @@ twitter-widget {
     }
     
     .lead-in {
-        font-size: 6vw;
+        font-size: 5vw;
     }
     
     .mini-in {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     
     div ul {
@@ -315,6 +316,14 @@ twitter-widget {
         padding: 20px;
         background-color: #f44336;
         color: white;
+    }
+    
+    h2 {
+        font-size: 3.5vw;
+    }
+    
+    ul li, span {
+        font-size: 2.75vw;
     }
 }
 
